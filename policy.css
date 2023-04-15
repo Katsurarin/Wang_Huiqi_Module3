@@ -1,0 +1,159 @@
+/*menu*/
+.about-us,
+.blog,
+.home,
+.login {
+    position: absolute;
+    top: 21px;
+    left: 780px;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    cursor: pointer;
+}
+
+.about-us,
+.blog,
+.login {
+    left: 899px;
+}
+
+.about-us,
+.login {
+    left: 1011px;
+}
+
+.login {
+    left: 1183px;
+}
+
+.logo1-icon {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 162px;
+    height: 65px;
+    object-fit: cover;
+}
+
+.policy-child {
+    position: absolute;
+    top: 3450px;
+    left: 0;
+    background-color: var(--color-dimgray);
+    width: 1280px;
+    height: 300px;
+}
+
+/*footer*/
+.blog1,
+.donate,
+.home1,
+.our-story,
+.terms-and-conditions {
+    position: absolute;
+    top: 3490px;
+    left: 538px;
+    display: inline-block;
+    width: 170px;
+    height: 18px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blog1,
+.donate,
+.our-story,
+.terms-and-conditions {
+    top: 3518px;
+}
+
+.blog1,
+.donate,
+.terms-and-conditions {
+    top: 3546px;
+}
+
+.donate,
+.terms-and-conditions {
+    top: 3602px;
+}
+
+.terms-and-conditions {
+    top: 3574px;
+}
+
+.alz-care-inc-container,
+.alzcare-all,
+.usca-365-996-2028-servicealz-container {
+    position: absolute;
+    top: 3533px;
+    left: 869px;
+    display: inline-block;
+    width: 311px;
+    height: 55px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.alzcare-all,
+.usca-365-996-2028-servicealz-container {
+    top: 3600px;
+}
+
+.alzcare-all {
+    top: 3655px;
+    left: 181px;
+    width: 294px;
+    height: 13.04px;
+}
+
+.logo2-icon {
+    position: absolute;
+    top: 3456px;
+    left: 187px;
+    width: 212px;
+    height: 212px;
+    object-fit: cover;
+}
+
+.facebook-icon,
+.linkedin-icon,
+.twitter-icon {
+    position: absolute;
+    top: 3490px;
+    left: 869px;
+    width: 34px;
+    height: 34px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.linkedin-icon,
+.twitter-icon {
+    left: 928px;
+}
+
+.twitter-icon {
+    left: 983px;
+}
+
+/*style*/
+.policy {
+    position: absolute;
+    width: 1049px;
+    height: 3220px;
+    left: 115px;
+    top: 159px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    line-height: 18px;
+    line-height: 1.4;
+
+    color: #000000;
+}

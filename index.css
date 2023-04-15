@@ -1,0 +1,425 @@
+.hands-icon,
+.home-child {
+  position: absolute;
+  top: 57px;
+  left: 0;
+  width: 1280px;
+  height: 653px;
+}
+.hands-icon {
+  object-fit: cover;
+}
+.home-child {
+  background-color: var(--color-black);
+  opacity: 0.2;
+}
+.help-with-caregiving {
+  position: absolute;
+  top: 212px;
+  right: 218px;
+  font-size: var(--font-size-49xl);
+  color: var(--color-white);
+}
+.imagine-family-caregivers {
+  position: absolute;
+  top: 332px;
+  left: 301px;
+  font-size: 36px;
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 679px;
+}
+.dont-take-it,
+.ready-to-start,
+.you-care-about {
+  position: absolute;
+  top: 748px;
+  left: 162px;
+  font-size: var(--font-size-31xl);
+}
+.dont-take-it,
+.ready-to-start {
+  top: 2825px;
+  left: 270px;
+  text-align: center;
+  display: inline-block;
+  width: 721px;
+}
+.ready-to-start {
+  top: 4079px;
+  left: 276px;
+}
+.a-necessary-feature,
+.tracking {
+  position: absolute;
+  top: 976px;
+  left: 558px;
+  font-size: var(--font-size-11xl);
+}
+.a-necessary-feature {
+  top: 1018px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  width: 517px;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50px;
+  background-color: var(--color-slateblue);
+  width: 262px;
+  height: 81px;
+}
+.get-started {
+  position: absolute;
+  top: 23px;
+  left: 30px;
+}
+.rectangle-container {
+  position: absolute;
+  top: 466px;
+  left: 509px;
+  width: 262px;
+  height: 81px;
+  cursor: pointer;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+.gps-icon {
+  position: absolute;
+  top: 894px;
+  left: 208px;
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+.alerts,
+.to-ensure-the {
+  position: absolute;
+  top: 1713px;
+  left: 558px;
+  font-size: var(--font-size-11xl);
+}
+.to-ensure-the {
+  top: 1755px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  width: 517px;
+}
+.alert-icon {
+  position: absolute;
+  top: 1658px;
+  left: 207px;
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+.monitor-the-patients,
+.monitoring {
+  position: absolute;
+  top: 1317px;
+  left: 208px;
+  font-size: var(--font-size-11xl);
+}
+.monitor-the-patients {
+  top: 1359px;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  width: 517px;
+}
+.camera-icon {
+  position: absolute;
+  top: 1262px;
+  left: 817px;
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+}
+.group-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-slateblue);
+  width: 154px;
+  height: 81px;
+}
+.submit1 {
+  position: absolute;
+  top: 23px;
+  left: 26px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 101px;
+  height: 34px;
+}
+.group-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 4435px;
+  left: 996px;
+  width: 154px;
+  height: 81px;
+}
+.group-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-ghostwhite-100);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 554px;
+  height: 441px;
+}
+.emily-icon {
+  position: absolute;
+  top: 39px;
+  left: 36px;
+  width: 147px;
+  height: 147px;
+  object-fit: cover;
+}
+.i-am-surprised {
+  position: absolute;
+  top: 210px;
+  left: 48px;
+  display: inline-block;
+  width: 453px;
+}
+.apple-app-store,
+.emily-wilson {
+  position: absolute;
+  top: 60px;
+  left: 205px;
+  font-size: var(--font-size-11xl);
+}
+.apple-app-store {
+  top: 105px;
+  font-size: var(--font-size-7xl);
+}
+.group-div,
+.rectangle-parent1 {
+  position: absolute;
+  top: 3066px;
+  left: 69px;
+  width: 554px;
+  height: 441px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.rectangle-parent1 {
+  left: 651px;
+}
+.stay1 {
+  margin: 0;
+}
+.stay-connected1 {
+  position: absolute;
+  top: 4405px;
+  left: 74px;
+  font-size: var(--font-size-35xl);
+  display: inline-block;
+  width: 316px;
+  height: 116px;
+}
+.home-item {
+  border: 1px solid var(--color-gray-200);
+  background-color: var(--color-gray-100);
+  position: absolute;
+  top: 4435px;
+  left: 463px;
+  border-radius: var(--br-xl);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 520px;
+  height: 87px;
+}
+.about-us3,
+.blog5,
+.home8,
+.login5 {
+  position: absolute;
+  top: 21px;
+  font-size: var(--font-size-5xl);
+  cursor: pointer;
+}
+.home8 {
+  left: 780px;
+  color: var(--color-slateblue);
+}
+.about-us3,
+.blog5,
+.login5 {
+  left: 899px;
+}
+.about-us3,
+.login5 {
+  left: 1011px;
+}
+.login5 {
+  left: 1183px;
+}
+.e-mail-address1 {
+  position: absolute;
+  top: 4465px;
+  left: 484px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 517px;
+}
+.home-inner {
+  position: absolute;
+  top: 4693px;
+  left: -3px;
+  background-color: var(--color-dimgray);
+  width: 1280px;
+  height: 300px;
+}
+.home10 {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.blog6,
+.donate3,
+.home9,
+.our-story2,
+.terms-and-conditions2 {
+  position: absolute;
+  top: 4733px;
+  left: 535px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 170px;
+  height: 18px;
+}
+.blog6,
+.donate3,
+.our-story2,
+.terms-and-conditions2 {
+  top: 4761px;
+  cursor: pointer;
+}
+.blog6,
+.donate3,
+.terms-and-conditions2 {
+  top: 4789px;
+}
+.donate3,
+.terms-and-conditions2 {
+  top: 4845px;
+}
+.terms-and-conditions2 {
+  top: 4817px;
+}
+.alz-care-inc-container2,
+.alzcare-all3,
+.usca-365-996-2028-servicealz-container2 {
+  position: absolute;
+  top: 4776px;
+  left: 866px;
+  color: var(--color-white);
+  display: inline-block;
+  width: 311px;
+  height: 55px;
+}
+.alzcare-all3,
+.usca-365-996-2028-servicealz-container2 {
+  top: 4843px;
+}
+.alzcare-all3 {
+  top: 5588px;
+  left: 191px;
+  width: 294px;
+  height: 13.04px;
+}
+.logo2-icon3 {
+  position: absolute;
+  top: 4699px;
+  left: 184px;
+  width: 212px;
+  height: 212px;
+  object-fit: cover;
+}
+.logo1-icon3 {
+  top: 0;
+  left: 10px;
+  width: 162px;
+  height: 65px;
+}
+.illus-icon,
+.logo1-icon3,
+.store-icon {
+  position: absolute;
+  object-fit: cover;
+}
+.store-icon {
+  top: 4146px;
+  left: 252px;
+  width: 749px;
+  height: 192px;
+  cursor: pointer;
+}
+.illus-icon {
+  top: 3626px;
+  left: 360px;
+  width: 554px;
+  height: 439px;
+}
+.facebook,
+.linkedin-icon2 {
+  top: 4733px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+.facebook {
+  text-decoration: none;
+  position: absolute;
+  left: 866px;
+  background-image: url(./public/facebook@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.linkedin-icon2 {
+  left: 925px;
+}
+.linkedin-icon2,
+.mockup-icon,
+.twitter-icon2 {
+  position: absolute;
+  object-fit: cover;
+}
+.twitter-icon2 {
+  top: 4733px;
+  left: 980px;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+.mockup-icon {
+  top: 1919px;
+  left: 0;
+  width: 1281px;
+  height: 955px;
+}
+.home7 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 4993px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

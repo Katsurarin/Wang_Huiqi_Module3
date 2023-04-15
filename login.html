@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+</head>
+
+<body>
+    <!--menu-->
+    <div class="login1">
+        <div class="home3" id="hOMEText">HOME</div>
+        <div class="blog2" id="bLOGText">BLOG</div>
+        <div class="about-us1">ABOUT US</div>
+        <b class="login2">LOGIN</b><b class="log-in">Log In</b>
+        <div class="login-child"></div>
+        <div class="dont-have-an">Don’t have an account? Register now.</div>
+        <input class="login-item" type="email" />
+        <div class="somethingwhatcom">something@what.com</div>
+        <div class="e-mail">E-mail</div>
+        <input class="login-inner" type="password" maxlength="{16}" minlength="{8}" /><button class="rectangle-button"></button><b class="login3">Login</b>
+        <div class="password">Password</div>
+        <div class="rectangle-div"></div>
+        <div class="alzcare-all1">© 2023 AlzCare | All Rights Reserved</div>
+        <img class="logo1-icon1" alt="" src="./public/logo1@2x.png" /><img class="logo2-icon1" alt="" src="./public/logo2@2x.png" />
+        <div class="at-least-8">at least 8 digitals</div>
+    </div>
+
+    <!--interactions-->
+    <script>
+        var hOMEText = document.getElementById("hOMEText");
+        if (hOMEText) {
+            hOMEText.addEventListener("click", function(e) {
+                window.location.href = "/";
+            });
+        }
+
+        var bLOGText = document.getElementById("bLOGText");
+        if (bLOGText) {
+            bLOGText.addEventListener("click", function() {
+                window.open("https://www.alzconnected.org/discussion.aspx?g=topics&f=151");
+            });
+        }
+
+    </script>
+</body>
+
+</html>

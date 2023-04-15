@@ -1,0 +1,180 @@
+.home3 {
+  position: absolute;
+  left: 780px;
+  cursor: pointer;
+}
+.about-us1,
+.blog2,
+.home3 {
+  top: 21px;
+  font-size: var(--font-size-5xl);
+}
+.blog2 {
+  position: absolute;
+  left: 899px;
+  cursor: pointer;
+}
+.about-us1 {
+  left: 1011px;
+}
+.about-us1,
+.log-in,
+.login2 {
+  position: absolute;
+}
+.login2 {
+  top: 21px;
+  left: 1183px;
+  font-size: var(--font-size-5xl);
+  color: var(--color-slateblue);
+}
+.log-in {
+  top: 293px;
+  left: 559px;
+  font-size: 48px;
+}
+.login-child {
+  position: absolute;
+  top: 379px;
+  left: 332px;
+  border-radius: var(--br-3xs);
+  background-color: #ddcef4;
+  width: 615px;
+  height: 338px;
+}
+.dont-have-an {
+  position: absolute;
+  top: 679px;
+  left: 533px;
+  font-size: 12px;
+  display: inline-block;
+  width: 214px;
+  height: 13px;
+}
+.login-item {
+  border: 1px solid var(--color-gray-200);
+  background-color: transparent;
+  position: absolute;
+  top: 434px;
+  left: 397px;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 512px;
+  height: 47px;
+}
+.e-mail,
+.somethingwhatcom {
+  position: absolute;
+  display: inline-block;
+  width: 281px;
+  height: 16px;
+}
+.somethingwhatcom {
+  top: 450px;
+  left: 408px;
+  color: var(--color-gray-300);
+}
+.e-mail {
+  top: 415px;
+  left: 397px;
+}
+.login-inner,
+.rectangle-button {
+  background-color: transparent;
+  position: absolute;
+  border-radius: var(--br-8xs);
+  height: 47px;
+}
+.login-inner {
+  border: 1px solid var(--color-gray-200);
+  top: 528px;
+  left: 397px;
+  background: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 512px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  top: 622px;
+  left: 577px;
+  background: linear-gradient(#65399f, #65399f), linear-gradient(#fff, #fff),
+    #fff;
+  width: 124px;
+}
+.login3,
+.password {
+  position: absolute;
+  height: 16px;
+}
+.login3 {
+  top: 638px;
+  left: 616px;
+  display: flex;
+  color: var(--color-white);
+  align-items: center;
+  width: 45px;
+}
+.password {
+  top: 509px;
+  left: 397px;
+  display: inline-block;
+  width: 273px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 791px;
+  left: 0;
+  background-color: var(--color-dimgray);
+  width: 1280px;
+  height: 41px;
+}
+.alzcare-all1 {
+  position: absolute;
+  top: 800px;
+  left: 515px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  display: inline-block;
+  width: 294px;
+  height: 13.04px;
+}
+.logo1-icon1,
+.logo2-icon1 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 162px;
+  height: 65px;
+  object-fit: cover;
+}
+.logo2-icon1 {
+  top: 88px;
+  left: 533px;
+  width: 212px;
+  height: 212px;
+}
+.at-least-8 {
+  position: absolute;
+  top: 544px;
+  left: 408px;
+  color: var(--color-gray-300);
+  display: inline-block;
+  width: 281px;
+  height: 16px;
+}
+.login1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

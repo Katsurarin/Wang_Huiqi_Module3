@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./about.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+</head>
+
+<body>
+    <!--menu-->
+    <div class="about">
+        <img class="us-icon" alt="" src="./public/us@2x.png" />
+        <div class="about-child"></div>
+        <div class="about-item"></div>
+        <div class="home4" id="hOMEText">HOME</div>
+        <div class="blog3" id="bLOGText">BLOG</div>
+        <b class="about-us2">ABOUT US</b>
+        <div class="login4" id="lOGINText">LOGIN</div>
+        <b class="about-alzcare">About AlzCare</b>
+        <!--awsome words-->
+        <div class="we-believe-in">
+            We believe in helping people keep their lives challenged. That's why we
+            created a simple mobile tool to allow family caregivers to monitor
+            remotely. From neuroscience to visual art, we combine many diverse
+            disciplines to create our engaging brain training program — making
+            cognitive research available to everyone.
+        </div>
+        <div class="about-inner">
+            <button class="rectangle-parent">
+                <button class="group-child" autofocus></button>
+                <div class="donate1" id="dONATEText">DONATE</div>
+            </button>
+        </div>
+        <b class="we-bring-better">We bring better caregiving experience to the world</b><b class="help-us-find">Help us find the next bright idea</b><img class="logo1-icon2" alt="" src="./public/logo1@2x.png" />
+        <!--emil-->
+        <button class="rectangle-group">
+            <div class="group-item"></div>
+            <div class="submit">Submit</div>
+        </button>
+        <b class="stay-connected">
+            <p class="stay">Stay</p>
+            <p class="stay">Connected</p>
+        </b>
+        <input class="rectangle-input" type="email" />
+        <div class="e-mail-address">E-mail address</div>
+        <!--footer-->
+        <div class="about-child1"></div>
+        <div class="home5" id="homeText">
+            <p class="home6">Home</p>
+            <p class="stay">&nbsp;</p>
+        </div>
+        <div class="our-story1" id="ourStoryText">Our Story</div>
+        <div class="blog4" id="blogText">Blog</div>
+        <div class="donate2" id="donateText">Donate</div>
+        <div class="terms-and-conditions1" id="termsAndConditions">
+            Terms and Conditions</div>
+        <div class="alz-care-inc-container1">
+            <p class="home6">Alz Care Inc. Canadian Head Office</p>
+            <p class="stay">1430 Trafalgar Rd Oakville, ON L6H 2L1</p>
+        </div>
+        <div class="usca-365-996-2028-servicealz-container1">
+            <p class="home6">US/CA 365-996-2028</p>
+            <p class="stay">service@alzcare.com</p>
+        </div>
+        <div class="alzcare-all2">© 2023 AlzCare | All Rights Reserved</div>
+        <img class="logo2-icon2" alt="" src="./public/logo2@2x.png" /><img class="facebook-icon1" alt="" src="./public/facebook@2x.png" id="facebookIcon" /><img class="linkedin-icon1" alt="" src="./public/linkedin@2x.png" id="linkedinIcon" /><img class="twitter-icon1" alt="" src="./public/twitter@2x.png" id="twitterIcon" />
+    </div>
+    <!--interactions-->
+    <script>
+        var hOMEText = document.getElementById("hOMEText");
+        if (hOMEText) {
+            hOMEText.addEventListener("click", function(e) {
+                window.location.href = "/";
+            });
+        }
+
+        var bLOGText = document.getElementById("bLOGText");
+        if (bLOGText) {
+            bLOGText.addEventListener("click", function() {
+                window.open("https://www.alzconnected.org/discussion.aspx?g=topics&f=151");
+            });
+        }
+
+        var lOGINText = document.getElementById("lOGINText");
+        if (lOGINText) {
+            lOGINText.addEventListener("click", function(e) {
+                window.location.href = "./login.html";
+            });
+        }
+
+        var dONATEText = document.getElementById("dONATEText");
+        if (dONATEText) {
+            dONATEText.addEventListener("click", function() {
+                window.open("https://www.alz.org/?form=alz_donate");
+            });
+        }
+
+        var homeText = document.getElementById("homeText");
+        if (homeText) {
+            homeText.addEventListener("click", function(e) {
+                window.location.href = "/";
+            });
+        }
+
+        var ourStoryText = document.getElementById("ourStoryText");
+        if (ourStoryText) {
+            ourStoryText.addEventListener("click", function(e) {
+                window.location.href = "about.html";
+            });
+        }
+
+        var blogText = document.getElementById("blogText");
+        if (blogText) {
+            blogText.addEventListener("click", function() {
+                window.open("https://www.alzconnected.org/discussion.aspx?g=topics&f=151");
+            });
+        }
+
+        var donateText = document.getElementById("donateText");
+        if (donateText) {
+            donateText.addEventListener("click", function() {
+                window.open("https://www.alz.org/?form=alz_donate");
+            });
+        }
+
+        var termsAndConditions = document.getElementById("termsAndConditions");
+        if (termsAndConditions) {
+            termsAndConditions.addEventListener("click", function(e) {
+                window.location.href = "./policy.html";
+            });
+        }
+
+        var facebookIcon = document.getElementById("facebookIcon");
+        if (facebookIcon) {
+            facebookIcon.addEventListener("click", function() {
+                window.open("https://www.facebook.com/actionalz");
+            });
+        }
+
+        var linkedinIcon = document.getElementById("linkedinIcon");
+        if (linkedinIcon) {
+            linkedinIcon.addEventListener("click", function() {
+                window.open("https://www.linkedin.com/in/huiqi-wang-664512221/");
+            });
+        }
+
+        var twitterIcon = document.getElementById("twitterIcon");
+        if (twitterIcon) {
+            twitterIcon.addEventListener("click", function() {
+                window.open("https://twitter.com/Huiqi_W");
+            });
+        }
+
+    </script>
+</body>
+
+</html>
